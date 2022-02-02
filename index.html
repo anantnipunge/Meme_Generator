@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 >Meme Generator</h1>
+    <img class="img" src="https://st.depositphotos.com/1431107/1365/i/950/depositphotos_13653090-stock-photo-lol-smiley.jpg" alt="">
+    <div class="container">
+      <p>
+        <label><h3>Select An Image</h3></label>
+        <input type="file" id="imageFileInput" />
+      </p>
+      <p>
+        <label>Top Text</label>
+        <input type="text" id="topTextInput" />
+      </p>
+      <label>Bottom Text</label>
+      <input type="text" id="bottomTextInput" />
+
+      <canvas id="meme"></canvas>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
